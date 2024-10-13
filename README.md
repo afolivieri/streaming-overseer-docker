@@ -5,7 +5,7 @@
 
 ## Deployment
 1. Clone this repository:
-    - git clone https://github.com/afolivieri/streaming-overseer-docker.git
+    - git clone https://github.com/afolivieri/streaming-overseer-docker
     - cd streaming-overseer-docker
 2. Run the application:
     - docker-compose up
