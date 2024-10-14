@@ -4,8 +4,6 @@ services:
     image: afolivieri/streamingoverseer-backend:v1.1
     ports:
       - "8000:8000"
-    volumes:
-      - ./app/telegram_bot.db:/app/telegram_bot.db
     networks:
       - overseer-network
   frontend:
