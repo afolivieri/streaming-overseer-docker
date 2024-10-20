@@ -2,12 +2,14 @@ version: '3.8'
 services:
   backend:
     image: afolivieri/streamingoverseer-backend:v1.1
+    platform: linux/amd64
     ports:
       - "127.0.0.1:8000:8000"
     networks:
       - overseer-network
   frontend:
     image: afolivieri/streamingoverseer-frontend:v1.1
+    platform: linux/amd64
     ports:
       - "127.0.0.1:3000:3000"
     networks:
