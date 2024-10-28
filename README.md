@@ -4,7 +4,7 @@
 - Install [Docker Desktop](https://www.docker.com/products/docker-desktop).
 
 ## Deployment
-1. Clone this repository:
+1. Clone this repository (using the command line):
     - `git clone https://github.com/afolivieri/streaming-overseer-docker`
     - `cd streaming-overseer-docker`
 2. Run the application:
